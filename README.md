@@ -1,2 +1,2 @@
 # notes
-Repository for the school notes that I decide to export from Notion.
+Repository for my Notion notes, formatted as Markdown. Automatically updates at 0:00 UTC every day.
