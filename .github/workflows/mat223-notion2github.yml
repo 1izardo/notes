@@ -1,8 +1,9 @@
 name: mat223-sync
-# on:
-#   schedule:
-#     - cron: '0 0 * * *'
-on: [push]
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+  
 jobs:
   mat223-sync:
     runs-on: ubuntu-latest
