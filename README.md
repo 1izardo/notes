@@ -1,4 +1,4 @@
 # notes
-Repository for my [Notion notes](https://www.notion.so/dlazaro/9f944426138e41279e9dd2d26b8a0dc9), formatted as Markdown files. Automatically updates at 0:00 UTC every day.
+Repository for my Notion notes, formatted as Markdown files. Automatically updates at 0:00 UTC every day.
 
-_Note: these files are missing all KaTeX code (if present in original)_
+_Note: these files are missing all KaTeX math code (if present in original)_
