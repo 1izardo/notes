@@ -4,14 +4,14 @@ name: mat223-sync
 #     - cron: '0 0 * * *'
 on: [push]
 jobs:
-  notion-sync:
+  mat223-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Notion2Github
-        uses: younho9/notion2github@v1.1.0
+        uses: younho9/notion2github@v1.1.1
         with:
           database-url: 'https://www.notion.so/dlazaro/9f944426138e41279e9dd2d26b8a0dc9'
           docs-directory: ./mat223
