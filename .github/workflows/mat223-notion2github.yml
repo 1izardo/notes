@@ -1,10 +1,10 @@
-name: mat223-notion2github
+name: mat223-sync
 # on:
 #   schedule:
 #     - cron: '0 0 * * *'
 on: [push]
 jobs:
-  auto-sync-from-notion-to-github:
+  notion-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -24,6 +24,6 @@ jobs:
         uses: creyD/prettier_action@v3.1
         with:
           prettier_options: --write ./mat223/**/*.md
-          commit_message: 'mat223: Update notes (auto)'
+          commit_message: 'mat223: Update pages (auto)'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
