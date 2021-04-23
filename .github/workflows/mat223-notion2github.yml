@@ -13,7 +13,7 @@ jobs:
       - name: Notion2Github
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: 'https://www.notion.so/dlazaro/9f1197ac443f42768dd17f3f7c03b49b'
+          database-url: 'https://www.notion.so/dlazaro/9f944426138e41279e9dd2d26b8a0dc9'
           docs-directory: ./mat223
           filter-prop: Course
           filter-value: MAT223
