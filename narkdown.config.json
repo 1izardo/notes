@@ -1,0 +1,10 @@
+// narkdown.config.json
+{
+  "exportConfig": {
+    "recursiveExport": true,
+    "createPageDirectory": false,
+    "addMetadata": true,
+    "appendCreatedTime": true,
+    "generateSlug": true
+  }
+}
